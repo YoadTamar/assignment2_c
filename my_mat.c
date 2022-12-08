@@ -76,7 +76,7 @@ void copy(int mat[N][N] , int copym [N][N]){
 /*
 The function use the Floyd–Warshall algorithm for finding the shortest path in a graph.
 The function get a matrix and 2 index of start and end , and print the shortest path from start -> end.
-If there is not a path - print -1.
+If there is not a path - print -1..
 */
 void shortpath (int mat[N][N] , int start , int end){
         if(start == end || start < 0 || end < 0 || start >= N || end >= N){ // if the start=end or the start/end are out of bounds - prinf -1 

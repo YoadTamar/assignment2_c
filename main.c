@@ -12,7 +12,7 @@ int main(){
             createmat(mat);
         }
         if(scan == 'B'){
-            int i =0;
+            int i = 0;
             int j = 0;
             scanf("%d" , &i);
             scanf("%d" , &j);
