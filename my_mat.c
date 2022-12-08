@@ -86,15 +86,16 @@ void shortpath (int mat[N][N] , int start , int end){
     else{
         int graph[N][N] = {0};
         copy(mat , graph); // to not overide on the matrix
+        int ex = 0;
         for (int k = 0; k < N; k++){ 
             for (int i = 0; i < N; i++){
                 for(int j = 0; j < N; j++){
                     if(graph[i][j] == 0 && (graph[i][k] == 0 || graph[k][j] == 0)){ //check if there is a path 
-                        //nothing
+                        ex++;
                     }
                     else if (graph[i][j] != 0 && (graph[i][k] == 0 || graph[k][j] == 0))
                     {
-                        //nothing                
+                        ex++;                
                     }
                     else if (graph[i][j] == 0 && graph[i][k] != 0 && graph[k][j] != 0)
                     {
