@@ -4,7 +4,7 @@
 
 int main(){
     char scan = 'a'; 
-    int mat [N][N];
+    int mat [N][N] = {0};
     do
     {
         scanf("%c" , &scan);
@@ -12,15 +12,15 @@ int main(){
             createmat(mat);
         }
         if(scan == 'B'){
-            int i;
-            int j;
+            int i =0;
+            int j = 0;
             scanf("%d" , &i);
             scanf("%d" , &j);
             path(mat , i , j);
         }
         if(scan == 'C'){
-            int i;
-            int j;
+            int i=0;
+            int j=0;
             scanf("%d" , &i);
             scanf("%d" , &j);
             shortpath(mat , i , j);
