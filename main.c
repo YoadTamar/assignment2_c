@@ -7,6 +7,7 @@ int main(){
     int mat [N][N] = {0};
     do
     {
+        scan = 'a'; 
         scanf("%c" , &scan);
         if(scan == 'A'){
             createmat(mat);
