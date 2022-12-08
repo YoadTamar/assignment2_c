@@ -84,7 +84,7 @@ void shortpath (int mat[N][N] , int start , int end){
         printf("%d\n" , false_input);
     }
     else{
-        int graph[N][N];
+        int graph[N][N] = {0};
         copy(mat , graph); // to not overide on the matrix
         for (int k = 0; k < N; k++){ 
             for (int i = 0; i < N; i++){
