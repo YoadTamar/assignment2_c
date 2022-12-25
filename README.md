@@ -1,2 +1,2 @@
 # assignment2_c
-assignment 2 in c programming
+second assignment in "Software System 1" course at Ariel University
