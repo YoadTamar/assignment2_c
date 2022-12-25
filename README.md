@@ -1,5 +1,6 @@
 # Software System 1 - second assignment
 second assignment in "Software System 1" course at Ariel University
+
 ##Description
 This small C programs do some calculations on an undirected graph, which is represented by a square matrix.
 
